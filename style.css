@@ -1,0 +1,54 @@
+:root {
+    --main-bg-color: #e0f5ff;
+    --heading-color: #2e93c9;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--heading-color);
+}
+
+.person-image {
+    max-width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.intro-block {
+    background-color: var(--main-bg-color);
+    padding: 20px;
+}
+
+.name {
+    padding: 10px;
+    color: black;
+}
+
+.name h3,
+.name h6 {
+    color: black;
+}
+
+hr {
+    border-color: var(--heading-color);
+}
+
+.skill-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skill-list li::before {
+    content: "\2713";
+    font-weight: bold;
+    color: var(--heading-color);
+    padding-right: 5px;
+}
+
+.bg-secondary {
+    background-color: #ddd !important;
+}
